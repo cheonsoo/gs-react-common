@@ -1,0 +1,54 @@
+.mdid-search-box-modal {
+  width: 100%;
+
+  .mdid-search-box-modal-title {
+    // cursor: move;
+    padding: 10px 5px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+
+    .mdid-search-box-modal-title-inner {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 20px;
+
+      > svg {
+        cursor: pointer;
+        color: #000;
+        position: absolute;
+        right: 20px;
+      }
+    }
+  }
+
+  .mdid-search-box-modal-content {
+    .mdid-search-box-modal-content-inner {
+      display: flex;
+      margin-bottom: 20px;
+
+      > div {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .mdid-search-box-modal-actions {
+    .mdid-search-box-modal-actions-inner {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      padding-right: 14px;
+      margin-bottom: 15px;
+
+      > div {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .MuiDialog-paperWidthSm {
+    max-width: 1500px;
+  }
+}

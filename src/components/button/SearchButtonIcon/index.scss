@@ -1,0 +1,42 @@
+.searchBtn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fff;
+    border-color: #1268fb;
+    svg {
+      width: 19px;
+      height: 19px;
+      color: #1268fb;
+    }
+  }
+  &:active,
+  &:focus {
+    border-radius: 50px;
+  }
+
+  svg {
+    width: 19px;
+    height: 19px;
+    color: #828282;
+  }
+  &:disabled {
+    background: #f6f7fb;
+    cursor: pointer;
+    &:hover {
+      background-color: #f6f7fb;
+      border-color: rgba(0, 0, 0, 0.15);
+      svg {
+        color: #828282;
+      }
+    }
+  }
+}
